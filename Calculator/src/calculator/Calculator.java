@@ -2,6 +2,8 @@ package calculator;
 
 /**
  * NOTE: CALCULATOR CLASS FUNCTIONS AS THE VIEW IN THE MVC
+ * Reference code:
+ * http://www.java2s.com/Code/Java/Tiny-Application/Asimplecalculator.htm
  */
 
 import java.awt.BorderLayout;
