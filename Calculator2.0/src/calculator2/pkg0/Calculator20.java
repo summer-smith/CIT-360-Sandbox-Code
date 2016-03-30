@@ -17,6 +17,11 @@ public class Calculator20 {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException{
+        //This is the controller -- it takes things from the front end
+        //(in this case, the command line) and passes them to a model
+        //(the handlers) for processing.  Currently, the models bypass
+        //the views and print output directly to screen.  Hoping to 
+        //fix that by integrating a GUI.
         Calculator20 calculator = new Calculator20();
         
         BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in)); 
